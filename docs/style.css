@@ -87,3 +87,12 @@ td{
 tr:nth-child(even){
     background-color: #F6FBFF;
 }
+
+.total{
+  backgreound-color: #D6EBFF;
+  font-weight: bold;
+}
+
+.total td{
+  color: #23395D;
+}
