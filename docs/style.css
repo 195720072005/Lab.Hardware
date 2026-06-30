@@ -20,9 +20,21 @@ h1{
   font-size: 45px:
 }
 
+h2{
+  color: #23395D;
+  font-size: 30px:
+}
+
+h1{
+  color: #23395D;
+  font-size: 20px:
+}
+
 p{
   color: #4A5568;
   font-size: 20px;
+  text-aling: justify;
+  line-height: 1.6;
 }
 
 .botones{
