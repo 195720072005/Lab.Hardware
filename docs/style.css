@@ -96,3 +96,12 @@ tr:nth-child(even){
 .total td{
   color: #23395D;
 }
+
+ul{
+    padding-left: 25px;
+    line-height: 1.7;
+}
+
+li{
+    margin-bottom: 18px;
+}
