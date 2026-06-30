@@ -7,7 +7,7 @@ body{
 
 .tarjeta{
   background-color: white;
-  width: 500px;
+  width: 90%;
   margin: 60px auto;
   padding: 40px;
   border-radius: 20px;
@@ -62,4 +62,28 @@ button{
 button:hover{
   background-color: #5AA5F2;
   transform: translateY(-3px);
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+th{
+  background-color: #86C0FF;
+  color: #23395D;
+  padding: 12px;
+  border: 1px solid #B7D7F7;
+}
+
+td{
+  padding: 12px;
+  border: 1px solid #B7D7F7;
+  text-align: left;
+  vertical-align: top;
+}
+
+tr:nth-child(even){
+    background-color: #F6FBFF;
 }
