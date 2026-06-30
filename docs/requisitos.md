@@ -3,7 +3,7 @@
 
 ### Introducción al escenario técnico 
 Una estación de trabajo de ingeniería requiere un rendimiento balanceado.
-Mientras que programas como Visual Studio y Adobe Acrobat consumen principalmente hilos de procesamiento de CPU y memoria RAM para tareas lógicas de texto, el software de diseño como Autodesk Fusion y la suite de simulación Proteus Desing Suite exigen un uso intesivo de procesamiento gáfico (GPU) y cálculo matemático en paralelo. Por lo tanto, el relevamiento se enfoca estrictamente en **requisitos recomenddos** para garantizar fluidez profesional, ignorando los mínimos.
+Mientras que programas como Visual Studio y Adobe Acrobat consumen principalmente hilos de procesamiento de CPU y memoria RAM para tareas lógicas de texto, el software de diseño como Autodesk Fusion y la suite de simulación Proteus Desing Suite exigen un uso intesivo de procesamiento gáfico (GPU) y cálculo matemático en paralelo. Por lo tanto, el relevamiento se enfoca estrictamente en **requisitos recomendados** para garantizar fluidez profesional, ignorando los mínimos.
 
 ### Tabla Comparativa de Requisitos Recomendados
 | Software | Sistema Operativo Compatible | CPU Recomendada | Memoria RAM | Almacenamiento Requerido | Tarjeta Gráfica (GPU) |
