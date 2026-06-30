@@ -1,91 +1,98 @@
-<h2>Definición y Justificación del Sistema Operativo</h2>
-
-<p>
-    Para la propuesta final del sistema informático, se ha seleccionado
-    <strong>Windows 11 Pro de 64 bits</strong>.
-</p>
-
-<h3>Justificación Técnica</h3>
-<ul>
-    <li>
-        <strong>Compatibilidad Nativa del Ecosistema:</strong>
-        Todos los programas asignados cuentan con soporte oficial completo y nativo para Windows.
-    </li>
-    <li>
-        <strong>Limitaciones críticas en otras plataformas:</strong>
-        Proteus Design Suite es una aplicación diseñada casi exclusivamente para entornos Windows. No cuenta con soporte nativo para computadoras Apple Mac con procesadores ARM (Apple Silicon M1/M2/M3), lo cual obligaría a utilizar capas de virtualización que degradarían el rendimiento gráfico y de simulación.
-    </li>
-    <li>
-        <strong>Optimización Gráfica:</strong>
-        Autodesk Fusion aprovecha de manera óptima las librerías DirectX de Microsoft presentes en Windows. Esto permite exprimir al máximo la potencia de las placas de video dedicadas profesionales al realizar renderizados 3D o simulaciones de esfuerzos mecánicos.
-    </li>
-    <li>
-        <strong>Seguridad y Redes:</strong>
-        La edición <strong>Pro</strong> de Windows 11 añade funciones críticas para un entorno profesional, como BitLocker, mejor soporte para almacenamiento en red y una asignación eficiente de núcleos híbridos en procesadores modernos.
-    </li>
-</ul>
-
-<h2>Selección y Justificación de Hardware</h2>
-<h3>Diseño Integral del Sistema Informático</h3>
-<ul>
-    <li>
-        <strong>Procesador (CPU):</strong>
-        AMD Ryzen 5 7600 (6 núcleos / 12 hilos, hasta 5.1 GHz) con cooler Wraith Stealth integrado.
-        <br><br>
-        <strong>Justificación:</strong>
-        Cumple con la frecuencia mayor a 3.0 GHz recomendada por Fusion. Sus 6 núcleos permiten realizar simulaciones en Proteus sin afectar el rendimiento del sistema y brindan agilidad al compilar código en Visual Studio Code.
-    </li>
-    <li>
-        <strong>Placa Madre (Motherboard):</strong>
-        ASUS Prime B650M-A II (Socket AM5).
-        <br><br>
-        <strong>Justificación:</strong>
-        Ofrece el zócalo AM5 requerido por el procesador y soporte para PCIe 4.0/5.0, memoria DDR5 y una excelente estabilidad durante jornadas prolongadas de trabajo.
-    </li>
-    <li>
-        <strong>Memoria RAM:</strong>
-        Kingston Fury Beast 32 GB DDR5 (2 × 16 GB, 5600 MHz).
-        <br><br>
-        <strong>Justificación:</strong>
-        Los <strong>32 GB</strong> en Dual Channel superan ampliamente los requisitos de Autodesk Fusion y Proteus, permitiendo ejecutar múltiples aplicaciones de manera simultánea.
-    </li>
-    <li>
-        <strong>Tarjeta Gráfica (GPU):</strong>
-        NVIDIA GeForce RTX 4060 8 GB GDDR6 (Gigabyte Eagle OC).
-        <br><br>
-        <strong>Justificación:</strong>
-        Proporciona los <strong>8 GB de VRAM</strong> recomendados por Autodesk y acelera el procesamiento 3D mediante los núcleos CUDA de NVIDIA.
-    </li>
-    <li>
-        <strong>Almacenamiento (SSD):</strong>
-        SSD M.2 NVMe WD Black SN770 1 TB PCIe Gen4.
-        <br><br>
-        <strong>Justificación:</strong>
-        Sus altas velocidades de lectura reducen significativamente los tiempos de carga de proyectos, simulaciones y dependencias de desarrollo.
-    </li>
-    <li>
-        <strong>Fuente de Alimentación:</strong>
-        Corsair CX650 M (650 W, Certificación 80 Plus Bronze).
-        <br><br>
-        <strong>Justificación:</strong>
-        Aporta la potencia necesaria para alimentar el sistema con seguridad y eficiencia energética.
-    </li>
-    <li>
-        <strong>Gabinete:</strong>
-        Cougar MX110.
-        <br><br>
-        <strong>Justificación:</strong>
-        Buena ventilación y flujo de aire para conservar la vida útil de los componentes.
-    </li>
-    <li>
-        <strong>Monitor:</strong>
-        LG 24" 24MK430H Full HD IPS.
-        <br><br>
-        <strong>Justificación:</strong>
-        El panel IPS asegura una excelente fidelidad de color y amplios ángulos de visión para el trabajo con planos técnicos.
-    </li>
-</ul>
-
-<a href="index.html">
-    <button>Inicio</button>
-</a>
+<head>
+  <meta charset="UTF-8">
+  <title>Requisitos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Definición y Justificación del Sistema Operativo</h2>
+    
+    <p>
+        Para la propuesta final del sistema informático, se ha seleccionado
+        <strong>Windows 11 Pro de 64 bits</strong>.
+    </p>
+    
+    <h3>Justificación Técnica</h3>
+    <ul>
+        <li>
+            <strong>Compatibilidad Nativa del Ecosistema:</strong>
+            Todos los programas asignados cuentan con soporte oficial completo y nativo para Windows.
+        </li>
+        <li>
+            <strong>Limitaciones críticas en otras plataformas:</strong>
+            Proteus Design Suite es una aplicación diseñada casi exclusivamente para entornos Windows. No cuenta con soporte nativo para computadoras Apple Mac con procesadores ARM (Apple Silicon M1/M2/M3), lo cual obligaría a utilizar capas de virtualización que degradarían el rendimiento gráfico y de simulación.
+        </li>
+        <li>
+            <strong>Optimización Gráfica:</strong>
+            Autodesk Fusion aprovecha de manera óptima las librerías DirectX de Microsoft presentes en Windows. Esto permite exprimir al máximo la potencia de las placas de video dedicadas profesionales al realizar renderizados 3D o simulaciones de esfuerzos mecánicos.
+        </li>
+        <li>
+            <strong>Seguridad y Redes:</strong>
+            La edición <strong>Pro</strong> de Windows 11 añade funciones críticas para un entorno profesional, como BitLocker, mejor soporte para almacenamiento en red y una asignación eficiente de núcleos híbridos en procesadores modernos.
+        </li>
+    </ul>
+    
+    <h2>Selección y Justificación de Hardware</h2>
+    <h3>Diseño Integral del Sistema Informático</h3>
+    <ul>
+        <li>
+            <strong>Procesador (CPU):</strong>
+            AMD Ryzen 5 7600 (6 núcleos / 12 hilos, hasta 5.1 GHz) con cooler Wraith Stealth integrado.
+            <br><br>
+            <strong>Justificación:</strong>
+            Cumple con la frecuencia mayor a 3.0 GHz recomendada por Fusion. Sus 6 núcleos permiten realizar simulaciones en Proteus sin afectar el rendimiento del sistema y brindan agilidad al compilar código en Visual Studio Code.
+        </li>
+        <li>
+            <strong>Placa Madre (Motherboard):</strong>
+            ASUS Prime B650M-A II (Socket AM5).
+            <br><br>
+            <strong>Justificación:</strong>
+            Ofrece el zócalo AM5 requerido por el procesador y soporte para PCIe 4.0/5.0, memoria DDR5 y una excelente estabilidad durante jornadas prolongadas de trabajo.
+        </li>
+        <li>
+            <strong>Memoria RAM:</strong>
+            Kingston Fury Beast 32 GB DDR5 (2 × 16 GB, 5600 MHz).
+            <br><br>
+            <strong>Justificación:</strong>
+            Los <strong>32 GB</strong> en Dual Channel superan ampliamente los requisitos de Autodesk Fusion y Proteus, permitiendo ejecutar múltiples aplicaciones de manera simultánea.
+        </li>
+        <li>
+            <strong>Tarjeta Gráfica (GPU):</strong>
+            NVIDIA GeForce RTX 4060 8 GB GDDR6 (Gigabyte Eagle OC).
+            <br><br>
+            <strong>Justificación:</strong>
+            Proporciona los <strong>8 GB de VRAM</strong> recomendados por Autodesk y acelera el procesamiento 3D mediante los núcleos CUDA de NVIDIA.
+        </li>
+        <li>
+            <strong>Almacenamiento (SSD):</strong>
+            SSD M.2 NVMe WD Black SN770 1 TB PCIe Gen4.
+            <br><br>
+            <strong>Justificación:</strong>
+            Sus altas velocidades de lectura reducen significativamente los tiempos de carga de proyectos, simulaciones y dependencias de desarrollo.
+        </li>
+        <li>
+            <strong>Fuente de Alimentación:</strong>
+            Corsair CX650 M (650 W, Certificación 80 Plus Bronze).
+            <br><br>
+            <strong>Justificación:</strong>
+            Aporta la potencia necesaria para alimentar el sistema con seguridad y eficiencia energética.
+        </li>
+        <li>
+            <strong>Gabinete:</strong>
+            Cougar MX110.
+            <br><br>
+            <strong>Justificación:</strong>
+            Buena ventilación y flujo de aire para conservar la vida útil de los componentes.
+        </li>
+        <li>
+            <strong>Monitor:</strong>
+            LG 24" 24MK430H Full HD IPS.
+            <br><br>
+            <strong>Justificación:</strong>
+            El panel IPS asegura una excelente fidelidad de color y amplios ángulos de visión para el trabajo con planos técnicos.
+        </li>
+    </ul>
+    
+    <a href="index.html">
+        <button>Inicio</button>
+    </a>
+</body>
